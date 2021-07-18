@@ -1,1 +1,25 @@
+server:
+  port: 8081
+
+info:
+  description: "base-microservice-thymeleaf with spring boot and java 11"
+  author: "Taras Bulubas"
+  docker-image: "tbulubas/base-microservice-thymeleaf"
+  github:
+    http: "https://github.com/tbulubas/bases-microservice-thymeleaf.git"
+    ssh: "git@github.com:tbulubas/bases-microservice-thymeleaf.git"
+    cli: "gh repo clone tbulubas/bases-microservice-thymeleaf"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+spring:
+  thymeleaf:
+    cache: false
+    enabled: true
+    prefix: classpath:/templates/
+    suffix: .html
 
