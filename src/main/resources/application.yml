@@ -22,4 +22,5 @@ spring:
     enabled: true
     prefix: classpath:/templates/
     suffix: .html
-
+  application:
+    name: bases-microservice-thymeleaf
