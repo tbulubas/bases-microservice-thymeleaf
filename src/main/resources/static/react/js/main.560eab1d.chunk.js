@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-essentials"]=this["webpackJsonpreact-essentials"]||[]).push([[0],{3:function(e,t,n){"use strict";n.r(t);var s=n(0),a=n.n(s),r=n(2),c=n.n(r);n(8);c.a.render(a.a.createElement("h1",null,"Hello World!"),document.getElementById("root"))},8:function(e,t,n){}},[[3,1,2]]]);
+//# sourceMappingURL=main.560eab1d.chunk.js.map
